@@ -1,8 +1,5 @@
-#include<stdio.h>
-using namespace std ;
 
 public class HelloApp {
-
     public static void main(String[] args) {
         System.out.println(x: "Hello, World!");
     }
