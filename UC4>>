@@ -1,0 +1,28 @@
+public class HelloMultipleNames {
+
+    public static void main(String[] args) {
+
+        // Check if command-line arguments are provided
+        if (args.length == 0) {
+            // Default message if no names are given
+            System.out.println("Hello World");
+        } 
+        else {
+            // Display greeting for each name provided
+            System.out.print("Hello ");
+
+            for (int i = 0; i < args.length; i++) {
+                System.out.print(args[i]);
+
+                // Add comma between names except the last one
+                if (i < args.length - 1) {
+                    System.out.print(", ");
+                }
+            }
+
+            System.out.println();
+        }
+    }
+}
+
+
